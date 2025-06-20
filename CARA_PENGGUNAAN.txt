@@ -1,0 +1,71 @@
+========================================
+    WEB KOMPRES FOTO - CARA PENGGUNAAN
+========================================
+
+📋 PERSYARATAN:
+- Python 3.7 atau lebih baru
+- Koneksi internet (untuk install dependensi)
+
+🚀 CARA MENJALANKAN:
+
+METODE 1 - Menggunakan File Batch (Windows):
+1. Double click file "install_and_run.bat"
+2. Ikuti instruksi yang muncul
+3. Buka browser dan kunjungi http://localhost:5000
+
+METODE 2 - Menggunakan PowerShell:
+1. Klik kanan pada "install_and_run.ps1"
+2. Pilih "Run with PowerShell"
+3. Ikuti instruksi yang muncul
+4. Buka browser dan kunjungi http://localhost:5000
+
+METODE 3 - Manual:
+1. Buka Command Prompt atau PowerShell
+2. Ketik: python -m pip install -r requirements.txt
+3. Ketik: python app.py
+4. Buka browser dan kunjungi http://localhost:5000
+
+📱 CARA MENGGUNAKAN APLIKASI:
+
+1. Upload Foto:
+   - Klik area upload atau drag & drop file foto
+   - Format yang didukung: JPG, PNG, GIF, BMP, WebP
+   - Maksimum ukuran: 16MB
+
+2. Atur Pengaturan Kompresi:
+   - Kualitas: 10-100% (default: 85%)
+   - Ukuran maksimum: atur lebar dan tinggi
+   - Semakin rendah kualitas, semakin kecil ukuran file
+
+3. Kompres Foto:
+   - Klik tombol "Kompres Foto"
+   - Tunggu proses selesai
+   - Download hasil kompresi
+
+🔧 FITUR TAMBAHAN:
+- Drag & drop file
+- Preview informasi file
+- Pembersihan otomatis file sementara
+- Antarmuka responsif untuk mobile
+
+❓ TROUBLESHOOTING:
+
+Jika Python tidak ditemukan:
+1. Download Python dari https://www.python.org/downloads/
+2. Install dengan opsi "Add Python to PATH"
+3. Restart Command Prompt/PowerShell
+
+Jika ada error saat install dependensi:
+1. Pastikan koneksi internet stabil
+2. Coba jalankan: python -m pip install --upgrade pip
+3. Coba install satu per satu: pip install Flask Pillow Werkzeug
+
+Jika aplikasi tidak bisa diakses:
+1. Pastikan tidak ada aplikasi lain yang menggunakan port 5000
+2. Coba akses http://127.0.0.1:5000
+3. Periksa firewall Windows
+
+📞 BANTUAN:
+Jika masih mengalami masalah, periksa file README.md untuk informasi lebih detail.
+
+======================================== 

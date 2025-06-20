@@ -1,0 +1,61 @@
+========================================
+    SOLUSI MASALAH PYTHON TIDAK DITEMUKAN
+========================================
+
+❌ MASALAH: "Python was not found"
+
+✅ SOLUSI:
+
+METODE 1 - Microsoft Store (PALING MUDAH):
+1. Tekan Windows + S
+2. Ketik "Microsoft Store"
+3. Buka Microsoft Store
+4. Cari "Python"
+5. Install "Python 3.11" atau versi terbaru
+6. Restart Command Prompt/PowerShell
+7. Jalankan: run_with_python_web.bat
+
+METODE 2 - Download Manual:
+1. Buka https://www.python.org/downloads/
+2. Klik "Download Python 3.x.x"
+3. Jalankan installer
+4. ✅ PENTING: Centang "Add Python to PATH"
+5. Klik "Install Now"
+6. Restart Command Prompt/PowerShell
+7. Jalankan: run_with_python_web.bat
+
+METODE 3 - Anaconda:
+1. Download Anaconda dari https://www.anaconda.com/
+2. Install Anaconda
+3. Buka "Anaconda Prompt"
+4. Navigasi ke folder proyek: cd C:\Users\asus_\kompress
+5. Jalankan: python app.py
+
+METODE 4 - Cek Python yang Sudah Ada:
+1. Buka Command Prompt sebagai Administrator
+2. Ketik: py --version
+3. Jika ada output, gunakan: py app.py
+
+========================================
+    SETELAH PYTHON TERINSTALL
+========================================
+
+1. Buka Command Prompt/PowerShell
+2. Navigasi ke folder: cd C:\Users\asus_\kompress
+3. Jalankan: run_with_python_web.bat
+4. Tunggu instalasi dependensi selesai
+5. Buka browser ke: http://localhost:5000
+
+========================================
+    TROUBLESHOOTING LANJUTAN
+========================================
+
+Jika masih error "Failed to fetch":
+1. Pastikan aplikasi berjalan (ada pesan "Running on http://0.0.0.0:5000")
+2. Coba akses: http://127.0.0.1:5000
+3. Matikan firewall/antivirus sementara
+4. Coba port lain dengan edit app.py baris terakhir:
+   app.run(debug=True, host='0.0.0.0', port=5001)
+   Lalu akses: http://localhost:5001
+
+======================================== 

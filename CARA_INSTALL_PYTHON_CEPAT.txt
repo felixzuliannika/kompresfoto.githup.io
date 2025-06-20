@@ -1,0 +1,65 @@
+========================================
+    CARA INSTALL PYTHON CEPAT
+========================================
+
+❌ MASALAH: Python tidak ditemukan
+✅ SOLUSI: Install Python terlebih dahulu
+
+========================================
+    METODE 1: MICROSOFT STORE (PALING MUDAH)
+========================================
+
+1. Tekan tombol Windows + S
+2. Ketik: "Microsoft Store"
+3. Klik "Microsoft Store"
+4. Di search bar, ketik: "Python"
+5. Pilih "Python 3.11" atau versi terbaru
+6. Klik "Get" atau "Install"
+7. Tunggu proses download dan install selesai
+8. Restart Command Prompt/PowerShell
+9. Jalankan: INSTALL_PYTHON_MUDAH.bat
+
+========================================
+    METODE 2: DOWNLOAD MANUAL
+========================================
+
+1. Buka browser
+2. Kunjungi: https://www.python.org/downloads/
+3. Klik tombol kuning "Download Python 3.x.x"
+4. Jalankan file installer yang didownload
+5. PENTING: Centang ✅ "Add Python to PATH"
+6. Klik "Install Now"
+7. Tunggu proses install selesai
+8. Restart Command Prompt/PowerShell
+9. Jalankan: INSTALL_PYTHON_MUDAH.bat
+
+========================================
+    VERIFIKASI INSTALASI
+========================================
+
+Setelah install Python:
+1. Buka Command Prompt baru
+2. Ketik: python --version
+3. Harus muncul versi Python (contoh: Python 3.11.0)
+
+========================================
+    JALANKAN APLIKASI
+========================================
+
+1. Double click: INSTALL_PYTHON_MUDAH.bat
+2. Script akan otomatis:
+   - Install dependensi (Flask, Pillow, Werkzeug)
+   - Menjalankan aplikasi
+3. Buka browser ke: http://localhost:5000
+
+========================================
+    TROUBLESHOOTING
+========================================
+
+Jika masih error:
+1. Restart komputer
+2. Jalankan Command Prompt sebagai Administrator
+3. Coba: python -m pip install --upgrade pip
+4. Lalu: python -m pip install Flask Pillow Werkzeug
+
+======================================== 
